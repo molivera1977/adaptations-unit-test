@@ -19,7 +19,7 @@
 ═══════════════════════════════════════════════════════ */
 
 /* ── CONFIG ─────────────────────────────────────────── */
-const TEST_OPEN     = false;   // Built 11/17 closed until Marcos says open (test day Fri 11/20). false = students locked out; only Teacher Access works.
+const TEST_OPEN     = true;    // OPEN 11/18 22:4x for Thu 11/19 (Marcos: "Open the test for tomorrow" → test day Thursday 11/19, moved from Fri 11/20). school-clock.js still keeps it shut outside school hours. false = students locked out; only Teacher Access works.
 const SHARE_MODE    = !!window.SHARE_MODE;   // set by share.js — a visitor's link, never a student's
 const REVIEW_GATE   = false;   // as Dollars and Sense since 11/9 (Marcos: "cancel any that need to continue on review" · "I dont care if
                                // absent students didn't do review") — no one waits for the review. true = all three review parts first.
